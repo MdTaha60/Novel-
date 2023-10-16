@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     color: #333;
+}
+
+.main{
+    height: 111vh;
+    display: flex;
+    background-color: #fff;
+}
+.sidebar{
+    background-color: #f3f3f3;
+    width: 20rem;
+    /* display: flex; */
+    position: relative;
+}
+.sidebar .head{
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 55px;
+}
+.nav-option {
+    margin-left: 3rem;
+    padding: 1rem 0;
+    line-height:55px;
+}
+.nav-option ul li {
+    list-style-type: none;
+}
+.sidebar .nav-option li a {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+ .sidebar .nav-option i {
+    padding-right: 8px;
+}
+/* .sidebar .nav-option li:hover{
+   
+}
+.sidebar .nav-option li a:hover {
+    box-shadow:  0 0 4px rgba(255,255,255,0.5);
+} */
+
+.main-content {
+    flex: 1;
+}
+.content{
+    height: 100px;
+    background-color: #fff;
+}
+.search-container {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    /* padding: 5px; */
+    height: 4rem;
+    position: fixed;
+    
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 18px 0;
+    width: 100%;
+    font-size: 30px;
+    /* border-radius: 2rem; */
+    margin-left: 3rem;
+}
+.chart {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+    
+}
+.chart h1 {
+margin-left: 3rem;
+}
+.chart h4{
+ margin-top: 2rem; 
+ margin-left: 3rem;
+ padding: 40px 0;
+}
+.budget{
+    display: flex;
+    gap: 50px;
+}
+.budget .bud {
+    /* margin-top: 3rem; */
+    margin-left: 3rem;
+}
+.para-1{
+    margin-top: 2rem;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.img{
+    margin-top: 2rem;
+}
+.info {
+    display:flex;
+    margin-left: 5rem;
+    height: 5rem;
+}
+.info .col-h{
+    margin-left: 4rem;
+    font-size: larger;
+    font-weight: 500;
+}
+.app-logo {
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+.col-amz{
+    margin-left: 3rem;
+    font-style: italic;
+}
+.para-2{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 2.5rem;
+}
+.footer{
+    background-color: rgb(154, 190, 222);
+    position: fixed;
+    bottom: 0px;
+    width: 20rem;
+    height: 6.6rem;
+}
+table {
+    margin: 50px;  
+    /* margin-top: 50px; */
+}               
+table,tr,td,th {
+    padding: 20px 100px;
+    /* border: 1px solid black ; */
+    border-collapse: collapse;
+}
+
+table tr:nth-child(1) {
+    /* border-bottom: 1px solid black; */
+    padding: 20px ;
+    background-color: #f3f3f3;
+}
+
+table th {
+    font-size: 24px;
+}
+
+.visa img {
+    margin: 0 50px;
+}
+
+/* .t-row > td {
+    padding: 50px;
+}  */
+
+/* Add this to your existing CSS file */
+
+/* Mobile First Styles */
+
+/* ... (Your existing CSS) ... */
+
+/* Responsive Styles */
+
+/* For screens smaller than 768px (Mobile) */
+/* Add this to your existing CSS file */
+
+/* Mobile First Styles */
+
+/* ... (Your existing CSS) ... */
+
+/* Responsive Styles */
+
+/* For screens smaller than 768px (Mobile) */
+@media screen and (max-width: 768px) {
+
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .nav-option {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sidebar .head {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main-content {
+        flex: 1;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .content {
+        height: 100px;
+        background-color: rgb(12, 60, 101);
+    }
+
+    .search-container {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    .search-input {
+        width: 80%;
+    }
+
+    .chart {
+        margin-top: 3rem;
+    }
+
+    .budget .bud {
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+
+    .para-1 {
+        margin-top: 1.5rem;
+        font-size: large;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .img {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .info .col-h {
+        font-size: medium;
+        font-weight: 500;
+        margin-left: 0;
+    }
+
+    .app-logo {
+        margin-left: 0;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-amz {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .para-2 {
+        font-size: medium;
+        font-weight: 600;
+        margin-left: 0;
+    }
+
+    .footer {
+        background-color: rgb(154, 190, 222);
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        height: 6.6rem;
+    }
+
+    .visa {
+        display: none;
+    }
+}

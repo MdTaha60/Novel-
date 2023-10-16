@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dash.css">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <h1 class="head">Growify</h1>
+            <div class="navbar">
+                <nav class="nav-option">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="home">Home</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-credit-card"></i>
+                            <a href="cards">Cards</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-address-book"></i>
+                            <a href="people">People</a>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-wallet"></i>
+                            <a href="Wallet">Wallet</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                            <a href="transaction">Transaction</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <li style="list-style-type: none;">
+                        <i class="fa-sharp fa-solid fa-gear"></i>
+                        <a href="setting">Setting</a>
+                    </li>
+                    <li style="list-style-type: none;">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <a href="logout">Logout</a>
+                    </li>
+                </nav>
+            </div>
+            <div style="display: flex; flex: 1; justify-content: center;position: absolute; bottom: 0px;">
+                <p style="padding: 15px;">&copy;   2023-2025 Growify. All rights reserved, Built with in India</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="content">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                </div>
+            </div>
+            <hr>
+            <div class="chart">
+                <h1 class="bal-1">Balance <br>
+                    <h4>Here you can see all the statistics</h4>
+                </h1>
+                <div class="budget">
+                    <div class="bud">
+                        <h3>Total budget</h3>
+                        <p class="para-1">$85,125.00</p>
+                    </div>
+                    <div class="bud">
+                        <h3>Credit Limit</h3>
+                        <p class="para-1">$110,000.00</p>
+                    </div>
+                    <div class="bud">
+                        <h3>My goals</h3>
+                        <p class="para-1">$2,177.00</p>
+                    </div>
+                    <div class="bud">
+                        <h3>Saved</h3>
+                        <p class="para-1">$15,125.00</p>
+                    </div>
+                </div>
+                <div class="visa">
+                    <div class="img">
+                        <img src="./visa.png">
+                    </div>
+                </div>
+
+                <div class="table">
+                    <table>  
+                        <tr class="t-row">                       
+                           <th>Name</th>
+                           <th>Amount</th>
+                           <th>Date</th>
+                           <th>Status</th>
+                        </tr>  
+                        <tr>
+                           <td><img src="./asset/amz.png"></td>
+                           <td> <h2>Amazon</h2></td>
+                           <td><p class="para-2">$2000.00</p></td>
+                           <td><p class="para-2">Completed</p></td>
+                        </tr> 
+                        <tr>
+                          
+                           <td><img src="./asset/aple.png"></td>
+                           <td> <h2>Apple</h2></td>
+                           <td><p class="para-2">-$172.00</p></td>
+                           <td><p class="para-2">Inprogress</p></td>
+                        </tr> 
+                        <tr>
+                          
+                           <td><img src="./asset/p.png"></td>
+                           <td> <h2>PayPal</h2></td>
+                           <td><p class="para-2">$2500.00</p></td>
+                           <td><p class="para-2">Completed</p></td>
+                        </tr> 
+                        <tr>
+                          
+                           <td><img src="./asset/y.png"></td>
+                           <td> <h2>Playsta</h2></td>
+                           <td><p class="para-2">$200.00</p></td>
+                           <td><p class="para-2">Completed</p></td>
+                        </tr> 
+                       </table>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer">
+             <p>   </p></div> -->
+    </div>
+</body>
+
+</html>
