@@ -60,6 +60,11 @@ button {
     font-size: 16px;
     transition: background-color 0.3s;
 }
+button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
 
 button:hover {
     background-color: #03416d;
