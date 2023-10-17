@@ -5,6 +5,11 @@
      font-family: sans-serif;
      color: #333;
 }
+body {
+    font-family: 'Poppins', sans-serif; /* Use the chosen font */
+    background-color: #f7f7f7; /* Adjust background color */
+    color: #333;
+}
 
 .main{
     height: 111vh;
@@ -20,12 +25,14 @@
 .sidebar .head{
     color: #000;
     margin-left: 2.5rem;
-    font-size: 55px;
+    font-size: 4-px;
+    margin-top: 1.5rem;
 }
 .nav-option {
     margin-left: 3rem;
     padding: 1rem 0;
     line-height:55px;
+    margin-top: 3rem;
 }
 .nav-option ul li {
     list-style-type: none;
@@ -69,10 +76,12 @@
     border: none;
     outline: none;
     padding: 18px 0;
-    width: 100%;
+    width: 20%;
     font-size: 30px;
     /* border-radius: 2rem; */
     margin-left: 3rem;
+    border: 2px  solid rgb(212, 207, 207);
+    border-radius: 1rem;
 }
 .chart {
     background-color: #fff;
@@ -89,6 +98,9 @@ margin-left: 3rem;
  margin-left: 3rem;
  padding: 40px 0;
 }
+a:hover {
+    color: #0066cc;
+}
 .budget{
     display: flex;
     gap: 50px;
@@ -99,7 +111,7 @@ margin-left: 3rem;
 }
 .para-1{
     margin-top: 2rem;
-    font-size: xx-large;
+    font-size: larger;
     font-weight: 800;
 }
 .img{
@@ -182,6 +194,15 @@ table th {
 /* Responsive Styles */
 
 /* For screens smaller than 768px (Mobile) */
+/* Add this to your existing CSS file */
+
+/* Mobile First Styles */
+
+/* ... (Your existing CSS) ... */
+
+/* Responsive Styles */
+
+/* For screens smaller than 768px (Mobile) */
 @media screen and (max-width: 768px) {
 
     .main {
@@ -200,6 +221,7 @@ table th {
     .sidebar .head {
         margin-left: 0;
         text-align: center;
+        font-size: 40px; /* Adjust the font size for mobile */
     }
 
     .main-content {
@@ -221,6 +243,7 @@ table th {
 
     .search-input {
         width: 80%;
+        font-size: 20px; /* Adjust the font size for mobile */
     }
 
     .chart {
@@ -287,3 +310,4 @@ table th {
         display: none;
     }
 }
+
